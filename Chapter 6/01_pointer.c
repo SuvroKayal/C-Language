@@ -4,7 +4,7 @@ int main()
 {
     int i = 7;
 
-    int *j = &i; // Pointer j stores the address of i
+    int *j = &i; // j is a pointer pointing to i (j is a integer pointer)
 
     int k = 67;
 
