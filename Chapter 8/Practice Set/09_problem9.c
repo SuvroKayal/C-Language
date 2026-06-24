@@ -2,13 +2,14 @@
 #include <string.h>
 
 int main() {
-    char c = 's';
+    char c = 'd';
     int contains = 0;
     char str[] = "suvro";
     for (int i = 0; i < strlen(str); i++)
     {
         if(str[i] == c){
          contains = 1;
+         break;
         }
     }
     if(contains){
